@@ -1,0 +1,31 @@
+{
+  "name": "hmu-runs-parse",
+  "author": "Sean Wilson",
+  "version": "0.0.0",
+  "description": "Parse string into correct format for hmu-core",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanc/hmu-runs-parse"
+  },
+  "scripts": {
+    "test": "ava test"
+  },
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.2",
+    "eslint-config-google": "^0.5.0"
+  },
+  "dependencies": {
+    "async-each": "^1.0.0",
+    "bluebird": "^3.4.0",
+    "cli-list": "^0.1.8",
+    "minimist": "^1.2.0",
+    "resolve": "^1.1.7"
+  }
+}
